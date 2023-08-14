@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="niv-wrapper">
+            <div class="left-side">
+                <div class="niv-link-wrapper">
+                    <a href="index.html">home</a>
+                </div>
+
+                <div class="niv-link-wrapper">
+                    <a href="About.html">About</a>
+                </div>
+            </div>
+             
+            <div class="right-side">
+                <div class="brand">
+                    <div>DUMISANI MBOWANE</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(Images/20221022_214104.jpg)"></div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/Logos/8machine-_-eMSj3dvfMyM-unsplash.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            PRO WEBSITE DEVELOPER.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(Images/20221022_213041.jpg)"></div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/Logos/8machine-_-eMSj3dvfMyM-unsplash.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            PRO WEBSITE DEVELOPER.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(Images/20220929_142834.jpg)"></div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/Logos/8machine-_-eMSj3dvfMyM-unsplash.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            PRO WEBSITE DEVELOPER.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(Images/20221022_213041.jpg)"></div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/Logos/cindy-bartillon-Yr1gxBvbGdY-unsplash.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            PRO WEBSITE DEVELOPER.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(Images/20221022_213348.jpg)"></div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/Logos/cindy-bartillon-Yr1gxBvbGdY-unsplash.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            PRO WEBSITE DEVELOPER.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(Images/20221022_214104.jpg)"></div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/Logos/cindy-bartillon-Yr1gxBvbGdY-unsplash.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            PRO WEBSITE DEVELOPER.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="advert-content">
+            <div class="advert-items">
+
+                <div class="advert-item">
+                    <div class="advert-img-background" style="background-image:url(Images/IMG-20230222-WA0001.jpg)"></div>
+
+                    <div class="subtitle">
+                       we repair different types of phone
+                    </div>
+                </div>
+
+                <div class="advert-item">
+                    <div class="advert-img-background" style="background-image:url(Images/20230319_130548.jpg)"></div>
+
+                    <div class="subtitle">
+                       we repair different types of pc/computors
+                    </div>
+                </div>
+
+                <div class="advert-item">
+                    <div class="advert-img-background" style="background-image:url()"></div>
+
+                    <div class="subtitle">
+                       we repair different types of TV/television, comming soon........
+                    </div>
+                </div>
+
+                <div class="advert-item">
+                    <div class="advert-img-background" style="background-image:url(Images/20230625_131938.jpg)"></div>
+
+                    <div class="subtitle">
+                       we repair different types of Gyser
+                    </div>
+                </div>
+
+                <div class="advert-item">
+                    <div class="advert-img-background" style="background-image:url(Images/20230610_101316.jpg)"></div>
+
+                    <div class="subtitle">
+                       we repair different types of Stove
+                    </div>
+                </div>
+
+                <div class="advert-item">
+                    <div class="advert-img-background" style="background-image:url(Images/20230728_175851.jpg)"></div>
+
+                    <div class="subtitle">
+                       we repair different types of Tuping/Wirering
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add("img-darken")
+        })
+
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove("img-darken")
+        })
+    })
+</script>
+</html>
